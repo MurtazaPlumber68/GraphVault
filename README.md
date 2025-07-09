@@ -457,6 +457,4 @@ This project builds upon the excellent work of the open-source community:
 
 Special thanks to the contributors and maintainers who make this project possible.
 
----
 
-**Ready to build your personal knowledge graph?** Start with the [Getting Started](#getting-started) guide and join our community on [Discord](https://discord.gg/pkg-ai) for support and discussions.
