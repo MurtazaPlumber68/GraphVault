@@ -441,9 +441,7 @@ docs(api): update authentication examples
 - [ ] **Real-time Collaboration**: Live graph editing and synchronized views
 - [ ] **Advanced AI Agents**: Industry-specific assistants and workflows
 
-## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Acknowledgments
 
