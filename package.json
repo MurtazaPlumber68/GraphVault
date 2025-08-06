@@ -8,7 +8,17 @@
     "build": "vite build",
     "build:dev": "vite build --mode development",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "server:dev": "cd server && npm run dev",
+    "server:build": "cd server && npm run build",
+    "docker:build": "docker-compose build",
+    "docker:up": "docker-compose up",
+    "docker:down": "docker-compose down",
+    "k8s:deploy": "kubectl apply -f kubernetes/",
+    "k8s:delete": "kubectl delete -f kubernetes/",
+    "helm:install": "helm install pkg ./helm",
+    "helm:upgrade": "helm upgrade pkg ./helm",
+    "helm:uninstall": "helm uninstall pkg"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.9.0",
